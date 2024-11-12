@@ -1,0 +1,19 @@
+CREATE DATABASE SecureNotesDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
+USE SecureNotesDB;
+
+-- Table for user accounts
+CREATE TABLE Accounts (
+    username VARCHAR(50) PRIMARY KEY,
+    passwordHash VARCHAR(128) NOT NULL  -- Allow longer hash length for future-proofing
+);
+
+-- Table for notes
+CREATE TABLE Notes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    title VARCHAR(255),
+    content TEXT,
+    FOREIGN KEY (username) REFERENCES Accounts(username) ON DELETE CASCADE
+);
