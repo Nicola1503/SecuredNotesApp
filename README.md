@@ -1,10 +1,7 @@
 SecureNotesApp Project Overview 
 
-The SecureNotesApp is a Java-based desktop application designed to securely create, manage, and access personal notes.
-Built with a focus on data privacy and usability,this application uses modern development practices,
- including JDBC for database connectivity, MySQL for data storage, and Java Swing for the graphical user interface.
- The project aims to provide a functional, user-friendly, and secure platform for users to manage sensitive information such as 
- passwords, ideas, or personal notes.
+The SecureNotesApp is a Java-based desktop application designed to securely create, manage, and access personal notes. Built with a focus on data privacy and usability, this application uses modern development practices,
+including JDBC for database connectivity, MySQL for data storage, and Java Swing for the graphical user interface. The project aims to provide a functional, user-friendly, and secure platform for users to manage sensitive information such as passwords, ideas, or personal notes. The application was programmed with the use of ChatGPT. 
 
  -----------------------------------------------------------------------------------------------------------------------------------
 
