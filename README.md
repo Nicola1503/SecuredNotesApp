@@ -10,9 +10,9 @@ Built with a focus on data privacy and usability,this application uses modern de
 
  Key Features:
 
- 1. User Authentification
+ 1. User Authentication
     - Secure login system to ensure that only authorized users can access their notes.
-    - Passwords are hashed using secure algorythms for storage.
+    - Passwords are hashed using secure algorithms for storage.
 
 2. Create, Read, Update, Delete (CRUD) Operations:
     - Add new notes with a title and content.
@@ -51,8 +51,8 @@ Developement Workflow
     - Develop GUI components using Swing.
     - Test database connectivity and data encryption.
 3. Testing Phase
-    -  Unit testing for individual components.
-    -  Integration testing to ensure seamless interaction between modules.
+    - Unit testing for individual components.
+    - Integration testing to ensure seamless interaction between modules.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 Potential Future Features 
@@ -73,5 +73,4 @@ Potential Future Features
 ------------------------------------------------------------------------------------------------------------------------------------
 Target Audience 
 This application is designed for individuals who value privacy and need a secure, lightweight solution to 
-manage sensitive personal or professional notes. It is particularly useful for professionals, students, and 
-anyone handling confidential information.
+manage sensitive personal notes.
